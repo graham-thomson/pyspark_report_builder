@@ -6,8 +6,7 @@ setup(
   description = 'Simple Python Package to save (small) PySpark DataFrames to one Excel File.',
   author = 'Graham Thomson',
   author_email = 'grahamflemingthomson@gmail.com',
-  url = '',
-  download_url = '',
+  url = 'https://github.com/graham-thomson/pyspark_report_builder',
   keywords = ['pyspark', 'dataframe', 'save', 'excel'],
   classifiers = [],
 )
