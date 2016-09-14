@@ -1,6 +1,12 @@
 ## PySpark DataFrame Report Builder
 
-A very simple Python Package to save (small) PySpark DataFrames to one Excel File.
+Simple Python Package to save (small) PySpark DataFrames to one Excel File.
+
+### pip Installation:
+
+```
+sudo -H pip install pyspark_dfreport
+```
 
 ###Usage:
 
@@ -9,9 +15,7 @@ _**Interactive Mode**_
 1. Import Package
 
 	```
-	import sys
-	sys.path.insert(0, '/path/to/report_builder/folder')
-	from DfReportBuilder import DataFrameReport
+	from pyspark_dfreport.builder import DataFrameReport
 	```
 2. Instantiate DataFrameReport Object
 
