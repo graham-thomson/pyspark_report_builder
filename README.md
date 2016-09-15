@@ -45,4 +45,5 @@ _**Interactive Mode**_
 	report.save_df(avgByOwner) # name is an optional argument
 	```
 7. Output
+
 	![sample excel output](http://i.imgur.com/hUKSBmP.png)
