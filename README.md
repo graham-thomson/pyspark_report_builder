@@ -34,4 +34,15 @@ _**Interactive Mode**_
 	```
 	report.save_df(byTown, name="Count By Town")
 	```
-5. Done!
+5. Try an aggregation
+
+	```
+	avgByOwner = data.groupBy(["Owner"]).agg({"Ant Height": "avg"})
+	```
+6. Save to Report
+
+	```
+	report.save_df(avgByOwner) # name is an optional argument
+	```
+7. Output
+	![sample excel output](http://i.imgur.com/hUKSBmP.png)
