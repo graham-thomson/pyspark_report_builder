@@ -46,4 +46,5 @@ _**Interactive Mode**_
 	```
 7. Output
 
-	![sample excel output](http://i.imgur.com/hUKSBmP.png)
+	<img src="http://i.imgur.com/hUKSBmP.png" width="250">
+	
